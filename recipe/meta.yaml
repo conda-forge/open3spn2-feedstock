@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cabb99/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: e4220381bbedc55f92e492140a664848bb0bd4558db0a4db86a54156a653eee9
+  sha256: 549f4023e313af0a7c51e6427cf1612cb3e6afb13d2fac704db0de88622dd812
 
 build:
   noarch: python
@@ -21,8 +21,6 @@ requirements:
   run:
     - python >=3.6
     - biopython
-    - mdtraj
-    - nose
     - numpy
     - openmm
     - pandas
