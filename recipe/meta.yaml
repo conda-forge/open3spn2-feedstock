@@ -1,5 +1,5 @@
 {% set name = "open3spn2" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cabb99/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: bbc49f0173d21e9dd873e1ffa425705cc3137de568cee0a0c4c6136c432e060e
+  sha256: e4220381bbedc55f92e492140a664848bb0bd4558db0a4db86a54156a653eee9
 
 build:
   noarch: python
